@@ -3,15 +3,16 @@ EC2 Instance - Install Nginx using terraform userdata file provisioner or local-
 
 
 
-# To execute the codey use below given terraform commands:
-
+### To execute the codey use below given terraform commands:
+```
 terraform init
 terraform fmt
 terraform validate
 terraform plan
 terraform apply --auto-approve
+```
 
-
-# then to destroy the created resources use below command:
+### then to destroy the created resources use below command:
+```
 terraform destroy --auto-approve
-
+```
